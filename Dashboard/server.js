@@ -11,7 +11,7 @@ const jsonFilePath = path.join(__dirname, 'clienti_connessi.json');
 const scriptPath = path.join(__dirname, 'estrai_clienti_vpn.sh');
 
 // Password fissa per l'autenticazione
-const PASSWORD = "Gds237882011!!!"; // Sostituisci con la tua password
+const PASSWORD = "password"; // Sostituisci con la tua password
 const port = 80;
 
 // Funzione per eseguire lo script bash e aggiornare il file JSON
